@@ -1,0 +1,117 @@
+#profile-picture {
+    border-radius: 50%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #00bfff, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 300px 1fr;         /* Zwei gleich große Spalten */
+    grid-template-rows: 1fr 1fr 1fr 1fr;            /* Zwei gleich große Reihen */
+    gap: 20px;   
+    row-gap: 25px;                                  /* Abstand zwischen den Grid-Items */
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.container {
+  padding: 40px !important;                         /* Entfernt inneren Abstand */
+  margin: 0 auto;                                   /* Zentriert den Container ohne zusätzlichen Abstand */
+}
+
+.img-card-1 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.card-1 {
+  grid-area: 1 / 3 / 2 / 4;
+  text-align: left !important;
+}
+
+.img-card-2{
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+.card-2 {
+  grid-area: 2 / 3 / 3 / 4;
+  text-align: left !important;
+}
+
+.img-card-3 {
+  grid-area: 3 / 2 / 3 / 3;
+}
+
+.card-3 {
+  grid-area: 3 / 3 / 3 / 3;
+  text-align: left !important;
+}
+
+.img-card-4 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.card-4 {
+  grid-area: 4 / 3 / 4 / 4;
+  text-align: left !important;
+}
+
+  h2, h3, h4 {
+    font-family: "Montserrat",  sans-serif;
+    color: #66bfbf;
+  }
+
+  h3 {
+    font-weight: bold !important;
+}
+
+  #skills {
+    margin-top: 10px !important;
+    text-align: center;
+  }
+
+hr {
+  border: dotted #00cfcfca 10px;
+  border-bottom: none;
+  width: 10%;
+  margin: 20px auto;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #66bfbf;
+  padding: 20px 0 20px;
+}
