@@ -34,9 +34,11 @@ I wanted to create a professional online presence while learning modern CSS tech
 
 This project helped me understand modern frontend development practices and responsive design before moving on to JavaScript frameworks and dynamic applications.
 
-## Live Demo
+## GitHub Repository
 
-Visit the live site: [Personal Website Demo](http://localhost:8080/wp-content/uploads/projects/personal-site/)
+View source code: [https://github.com/dmoehser/personal-site](https://github.com/dmoehser/personal-site)
+
+*Note: This project is currently only available locally. To view it, clone the repository and open `index.html` in your browser.*
 
 ## Project Structure
 
