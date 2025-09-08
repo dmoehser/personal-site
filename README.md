@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Website - My Second Web Project
 
 A responsive personal website showcasing my skills and portfolio. Built with HTML5, CSS3, and Bootstrap framework, featuring a modern gradient hero section, CSS Grid layout for skills display, and smooth animations.
 
